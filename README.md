@@ -1,5 +1,12 @@
 # Kubernetes on AWS using Kops
 
+This repository contains resources and documentation for deploying and managing a Kubernetes cluster on AWS using Kops. Kops is a tool for creating, destroying, upgrading, and maintaining production-grade, highly available, Kubernetes clusters on AWS.
+
+## Prerequisites
+1. An AWS account
+2. The AWS CLI installed and configured on your local machine
+3. The kops and kubectl command-line tools installed on your local machine
+
 ### 1. Launch Linux EC2 instance in AWS (Kubernetes Client)
 ### 2. Create and attach IAM role to EC2 Instance.
 	Kops need permissions to access
